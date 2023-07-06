@@ -1,16 +1,23 @@
 {
-    "manifest_version": 3,
-    "name": "Transformar pestaña en ventana",
-    "version": "1.0",
-    "permissions": [
-      "tabs"
-    ],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "action": {
-      "default_title": "Transformar pestaña en ventana",
-      "default_popup": "popup.html"
+  "manifest_version": 3,
+  "name": "Transformar pestaña en ventana",
+  "version": "1.0",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Transformar pestaña en ventana",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "maximize_video": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F"
+      },
+      "description": "Maximize YouTube Video"
     }
   }
-  
+}
